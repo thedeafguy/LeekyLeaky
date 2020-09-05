@@ -1,6 +1,6 @@
 # This unofficial tool serves as standard HIBP search (no API key needed)
 # Author: Sira
-# ChromeDriver is required, download here: https://chromedriver.chromium.org/. Dont't forget to add it to system's PATH
+# ChromeDriver is required, download here: https://chromedriver.chromium.org/index.html. Dont't forget to add it to system's PATH
 
 import sys
 import os.path
