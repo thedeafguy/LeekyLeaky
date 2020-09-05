@@ -7,7 +7,7 @@ Checking for addresses from file/arguments, checking for active Paste links
 ### Output
 Breach Title, Date and (if available) active Paste links
 ## Installation
-Download ChromeDriver according to your Chrome's version [here](https://chromedriver.storage.googleapis.com/), don't forget to add it to your system's PATH!<br>
+Download ChromeDriver according to your Chrome's version [here](https://chromedriver.storage.googleapis.com/index.html), don't forget to add it to your system's PATH!<br>
 Install requirements from requirements.txt<br>
 ```python
 pip install -r requirements.txt
