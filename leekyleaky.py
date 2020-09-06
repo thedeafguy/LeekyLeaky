@@ -61,7 +61,7 @@ def readLinesInFile(fileemails):
 
 def main():
     if len(sys.argv)-1 == 0:
-        print("Error: No files nor e-mail addresses have been specified.\n\nUsage:\t leekyleaky.py <path to file with e-mail address inside/e-mail address>\nExample: leekyleaky.py example@example.org example.txt\n\nYou can specify as many paths or addresses as you like.")
+        print("Error: No files nor e-mail addresses have been specified.\n\nUsage:\t leekyleaky.py <path to file with e-mail address inside/e-mail address>\nExample: leekyleaky.py example@example.org example.txt\nArguments:  --only_valid - outputs non-empty reults only\n\nYou can specify as many paths or addresses as you like.\nNOTE: To prevent ratelimit ban, there's a two-second pause after each e-mail.")
     else:
         driver()
         for i in range(1, len(sys.argv)):
