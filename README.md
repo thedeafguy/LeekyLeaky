@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 ## Usage
 ```shell
-python leekyleaky.py <path to file with e-mail address inside/e-mail address><br>
+python leekyleaky.py <path to file with e-mail address inside/e-mail address>
 Arguments: --only_valid - outputs non-empty results
 ```
 <br>Example:<br>
